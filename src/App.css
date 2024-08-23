@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero__coffee-name{
+   -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+   @media(min-width: 992px){
+      writing-mode: tb-rl
+   }
+}
+
+.hero__coffee-name_two{
+   -webkit-text-stroke: 2px #fff;
+   text-stroke: 2px #fff;
+   color: #283E32;
+   @media(max-width: 992px){
+      display: none;
+   }
+}
+
