@@ -82,7 +82,9 @@ export const Hero = () => {
              src={img1}
              alt=""
              className="absolute mn:bottom-[40px] z-[3] mn:h-[290px] right-[0px] right-[0px] 2sm:h-[350px]
-             2md:h-[500px] 2md:right-[130px] 2md:top-[70%] 2md:translate-y-[-70%] l:right-[260px]"
+             2md:h-[500px] 2md:right-[130px] 2md:top-[70%] 2md:translate-y-[-70%] l:h-[600px] l:right-[220px]
+             l:top-[60%] l:translate-y-[-60%]
+             "
            />
            <div
              className="bg-[#23AC72] rounded-t-[30px] absolute bottom-0 left-0 w-[100%] h-[90px] 2md:right-[0px] 2md:top-[0px]
@@ -91,20 +93,20 @@ export const Hero = () => {
              <p
                className="uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center
              md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name 2md:top-[0px] 2md:z-[3] 2md:text-[70px]
-             2md:right-[50px]"
+             2md:right-[50px] l:right-[125px]"
              >
                Cappuccino
              </p>
              <p
                className="uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center
              md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name hero__coffee-name_two 2md:top-[0px] 2md:z-[3] 2md:text-[70px]
-             2md:right-[-15px] 2md:visible 2md:text-[#23AC72]"
+             2md:right-[30px] 2md:visible 2md:text-[#23AC72] l:right-[60px]"
              >
                Cappuccino
              </p>
              <div
                className="flex mn:gap-[10px] absolute w-[100%] bottom-[5px] flex justify-center
-             2md:bottom-[60px]"
+             2md:bottom-[60px] l:right-[70px]"
              >
                <Link
                  to={"/"}
@@ -116,7 +118,7 @@ export const Hero = () => {
                <Link
                  to={"/"}
                  className="w-[49px] h-[49px] flex items-center justify-center bg-[#23AC72] 
-                 mn:rounded-[10px] absolute bottom-[5px] right-[15px] hover:bg-[#283E32] z-[5]"
+                 mn:rounded-[10px] absolute bottom-[5px] right-[15px] hover:bg-[#23AC72] z-[5] bg-[#283E32]"
                >
                  <img src={arrowRight} alt=">" />
                </Link>
