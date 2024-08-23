@@ -1,4 +1,4 @@
-import Logo from "/public/logo.png";
+import logo from "/public/Logo.png";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
@@ -7,7 +7,7 @@ export const Header = () => {
       <div className="max-w-[1350px] mt-0 mb-0 ml-[auto] mr-[auto] pl-[15px] pr-[15px]">
         <div className="flex gap-[52px] items-center mn:gap-[25px]">
           <Link to="/">
-            <img src={Logo} alt="" className="mn:w-[50px]" />
+            <img src={logo} alt="" className="mn:w-[50px]" />
           </Link>
           <nav>
             <ul className="flex gap-[34px] mn:gap-[17px]">
