@@ -174,48 +174,48 @@ export const Hero = () => {
            </div>
            <div
              className="flex mn:flex-col mn:gap-[15px] mn:grid mn:grid-cols-[repeat(2,60px)] mn:grid-rows-[repeat(2,60px)]
-           2sm:grid-cols-[repeat(2,80px)] 2sm:grid-rows-[repeat(2,80px)] 3sm:grid-cols-[repeat(3,167px)] 3sm:grid-rows-[repeat(1,100px)]"
+           2sm:grid-cols-[repeat(2,80px)] 2sm:grid-rows-[repeat(2,80px)] 3sm:grid-cols-[repeat(3,167px)] 3sm:grid-rows-[repeat(1,100px)] relative z-[30]"
              ref={coffeePrevs}
            >
              <div
                className={
                  drink === "cappucino"
-                   ? "bg-[#485B51] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px]"
-                   : "bg-[#33483C] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px]"
+                   ? "bg-[#485B51] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px] relative z-[10]"
+                   : "bg-[#33483C] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px] relative z-[10]"
                }
                onClick={() => setNewDrink("cappucino")}
              >
                <img
                  src={prev1}
-                 className="mn:h-[40px] 3sm:h-[60px] 2md:h-[150px]"
+                 className="mn:h-[40px] 3sm:h-[60px] 2md:h-[150px] relative z-[10]"
                  alt=""
                />
              </div>
              <div
                className={
                  drink === "pistachio latte"
-                   ? "bg-[#485B51] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px]"
-                   : "bg-[#33483C] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px]"
+                   ? "bg-[#485B51] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px] relative z-[10]"
+                   : "bg-[#33483C] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px] relative z-[10]"
                }
                onClick={() => setNewDrink("pistachio latte")}
              >
                <img
                  src={prev2}
-                 className="mn:h-[40px] 3sm:h-[60px] 2md:h-[150px]"
+                 className="mn:h-[40px] 3sm:h-[60px] 2md:h-[150px] relative z-[10]"
                  alt=""
                />
              </div>
              <div
                className={
                  drink === "berries latte"
-                   ? "bg-[#485B51] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px]"
-                   : "bg-[#33483C] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px]"
+                   ? "bg-[#485B51] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px] relative z-[10]"
+                   : "bg-[#33483C] mn:w-[60px] mn:h-[60px] flex justify-center items-center hover:bg-[#485B51] 2sm:w-[80px] 2sm:h-[80px] 3sm:w-[100px] 3sm:h-[100px] 2md:w-[167px] 2md:h-[211px] cursor-pointer 2md:rounded-[40px] relative z-[10]"
                }
                onClick={() => setNewDrink("berries latte")}
              >
                <img
                  src={prev3}
-                 className="mn:h-[40px] 3sm:h-[60px] 2md:h-[150px]"
+                 className="mn:h-[40px] 3sm:h-[60px] 2md:h-[150px] relative z-[10]"
                  alt=""
                />
              </div>
@@ -226,8 +226,8 @@ export const Hero = () => {
              src={img1}
              alt=""
              ref={coffeeImgRef}
-             className="absolute mn:bottom-[40px] z-[3] mn:h-[290px] right-[0px] right-[0px] 2sm:h-[350px]
-             2md:h-[500px] 2md:right-[130px] 2md:top-[70%] 2md:translate-y-[-70%] l:h-[600px] l:right-[220px]
+             className="absolute mn:bottom-[40px] z-[3] mn:h-[350px] right-[0px] right-[0px] 2sm:h-[350px]
+             2md:h-[500px] 2md:right-[130px] 2md:top-[70%] 2md:translate-y-[-70%] l:h-[700px] l:right-[220px]
              l:top-[60%] l:translate-y-[-60%]
              "
            />
@@ -235,16 +235,16 @@ export const Hero = () => {
              src={img2}
              alt=""
              ref={coffeeImg2Ref}
-             className="absolute mn:bottom-[40px] z-[3] mn:h-[290px] right-[0px] right-[0px] 2sm:h-[350px]
-             2md:h-[500px] 2md:right-[130px] 2md:top-[70%] 2md:translate-y-[-70%] l:h-[800px] l:right-[220px]
-             l:top-[60%] l:translate-y-[-60%] opacity-[0]
+             className="absolute mn:bottom-[40px] z-[3] mn:h-[350px] right-[0px] right-[0px] 2sm:h-[350px]
+             2md:h-[500px] 2md:right-[130px] 2md:top-[70%] 2md:translate-y-[-70%] l:h-[700px] l:right-[220px]
+             l:top-[65%] l:translate-y-[-65%] opacity-[0]
              "
            />
            <img
              src={img3}
              alt=""
              ref={coffeeImg3Ref}
-             className="absolute mn:bottom-[40px] z-[3] mn:h-[290px] right-[0px] right-[0px] 2sm:h-[350px]
+             className="absolute mn:bottom-[40px] z-[3] mn:h-[350px] right-[0px] right-[0px] 2sm:h-[350px]
              2md:h-[500px] 2md:right-[130px] 2md:top-[70%] 2md:translate-y-[-70%] l:h-[700px] l:right-[220px]
              l:top-[70%] l:translate-y-[-70%] opacity-[0]
              "
@@ -262,9 +262,9 @@ export const Hero = () => {
              ref={coffeImgBgRef}
            >
              <p
-               className="uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center
+               className="uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[20px] text-center
              md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name 2md:top-[0px] 2md:z-[3] 2md:text-[70px]
-             2md:right-[50px] l:right-[125px]"
+             2md:right-[60px] l:right-[125px] "
                ref={coffeeNameText}
              >
                Cappuccino
@@ -272,12 +272,12 @@ export const Hero = () => {
              <p
                className={
                  drink === "cappucino"
-                   ? "uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name hero__coffee-name_two 2md:top-[0px] 2md:z-[3] 2md:text-[70px] 2md:right-[30px] 2md:visible 2md:text-[#23AC72] l:right-[60px]"
+                   ? "uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name hero__coffee-name_two 2md:top-[0px] 2md:z-[3] 2md:text-[70px] 2md:visible 2md:text-[#23AC72] 2md:left-[auto] 2md:right-[5px] l:right-[60px]"
                    : drink === "pistachio latte"
-                   ? "uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name hero__coffee-name_two 2md:top-[0px] 2md:z-[3] 2md:text-[70px] 2md:right-[30px] 2md:visible 2md:text-[#C57C76] l:right-[60px]"
+                   ? "uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name hero__coffee-name_two 2md:top-[0px] 2md:z-[3] 2md:text-[70px] 2md:visible 2md:text-[#C57C76] 2md:left-[auto] 2md:right-[5px] l:right-[60px]"
                    : drink === "berries latte"
-                   ? "uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name hero__coffee-name_two 2md:top-[0px] 2md:z-[3] 2md:text-[70px] 2md:right-[30px] 2md:visible 2md:text-[#866F92] l:right-[60px]"
-                   : "uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name hero__coffee-name_two 2md:top-[0px] 2md:z-[3] 2md:text-[70px] 2md:right-[30px] 2md:visible 2md:text-[#23AC72] l:right-[60px]"
+                   ? "uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name hero__coffee-name_two 2md:top-[0px] 2md:z-[3] 2md:text-[70px] 2md:visible 2md:text-[#866F92] 2md:left-[auto] 2md:right-[5px] l:right-[60px]"
+                   : "uppercase text-[#fff] font-[700] absolute bottom-[15px] left-[15px]  mn:text-[30px] text-center md:text-[40px] md:bottom-[5px] md:[writing-mode: tb-rl] hero__coffee-name hero__coffee-name_two 2md:top-[0px] 2md:z-[3] 2md:text-[70px] 2md:visible 2md:text-[#23AC72] 2md:left-[auto] 2md:right-[5px] l:right-[60px]"
                }
                ref={coffeeNameTextStroke}
              >
@@ -289,16 +289,30 @@ export const Hero = () => {
              >
                <Link
                  to={"/"}
-                 className="w-[49px] h-[49px] flex items-center justify-center bg-[#23AC72] 
-                 mn:rounded-[10px] absolute bottom-[5px] hover:bg-[#283E32] mn:left-[75%] mn:translate-x-[-75%] z-[5]"
+                 className={
+                   drink === "cappucino "
+                     ? "w-[49px] h-[49px] flex items-center justify-center bg-[#23AC72] mn:rounded-[10px] absolute bottom-[5px] hover:bg-[#283E32] mn:left-[75%] mn:translate-x-[-75%] z-[5]"
+                     : drink === "pistachio latte"
+                     ? "w-[49px] h-[49px] flex items-center justify-center bg-[#C57C76] mn:rounded-[10px] absolute bottom-[5px] hover:bg-[#283E32] mn:left-[75%] mn:translate-x-[-75%] z-[5]"
+                     : drink === "berries latte"
+                     ? "w-[49px] h-[49px] flex items-center justify-center bg-[#866F92] mn:rounded-[10px] absolute bottom-[5px] hover:bg-[#283E32] mn:left-[75%] mn:translate-x-[-75%] z-[5]"
+                     : "w-[49px] h-[49px] flex items-center justify-center bg-[#23AC72] mn:rounded-[10px] absolute bottom-[5px] hover:bg-[#283E32] mn:left-[75%] mn:translate-x-[-75%] z-[5]"
+                 }
                  onClick={() => setPrevDrink(drink)}
                >
                  <img src={arrowLeft} alt="<" />
                </Link>
                <Link
                  to={"/"}
-                 className="w-[49px] h-[49px] flex items-center justify-center bg-[#23AC72] 
-                 mn:rounded-[10px] absolute bottom-[5px] right-[15px] hover:bg-[#23AC72] z-[5] bg-[#283E32]"
+                 className={
+                   drink === "cappucino"
+                     ? "w-[49px] h-[49px] flex items-center justify-center bg-[#23AC72] mn:rounded-[10px] absolute bottom-[5px] right-[15px] hover:bg-[#23AC72] z-[5] bg-[#283E32]"
+                     : drink === "pistachio latte"
+                     ? "w-[49px] h-[49px] flex items-center justify-center bg-[#23AC72] mn:rounded-[10px] absolute bottom-[5px] right-[15px] hover:bg-[#C57C76] z-[5] bg-[#283E32]"
+                     : drink === "berries latte"
+                     ? "w-[49px] h-[49px] flex items-center justify-center bg-[#23AC72] mn:rounded-[10px] absolute bottom-[5px] right-[15px] hover:bg-[#866F92] z-[5] bg-[#283E32]"
+                     : "w-[49px] h-[49px] flex items-center justify-center bg-[#23AC72] mn:rounded-[10px] absolute bottom-[5px] right-[15px] hover:bg-[#23AC72] z-[5] bg-[#283E32]"
+                 }
                  onClick={() => setNextDrink(drink)}
                >
                  <img src={arrowRight} alt=">" />
