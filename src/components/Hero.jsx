@@ -133,7 +133,7 @@ export const Hero = () => {
 
   const coffeeSwitch = (newCoffee, prevCoffee) => {
     gsap.fromTo(newCoffee, {opacity: 0,x: 500, duration: 0.7}, {opacity: 1, x: 0, duration:0.7})
-    gsap.to(prevCoffee, {opacity: 0})
+    gsap.to(prevCoffee, {x: -500, opacity: 0})
   }
 
   useGSAP(() => {
@@ -148,8 +148,15 @@ export const Hero = () => {
          <div>
            <div ref={mainText}>
              <h2
-               className="mn:text-[#41CA90] uppercase font-[700] mn:text-[30px] mn:leading-[100%] mn:mb-[5px]
-             2sm:text-[35px] 3sm:text-[40px] md:text-[50px]"
+               className={
+                 drink === "cappucino"
+                   ? "mn:text-[#41CA90] uppercase font-[700] mn:text-[30px] mn:leading-[100%] mn:mb-[5px] 2sm:text-[35px] 3sm:text-[40px] md:text-[50px]"
+                   : drink === "pistachio latte"
+                   ? "mn:text-[#C57C76] uppercase font-[700] mn:text-[30px] mn:leading-[100%] mn:mb-[5px] 2sm:text-[35px] 3sm:text-[40px] md:text-[50px]"
+                   : drink === "berries latte"
+                   ? "mn:text-[#866F92] uppercase font-[700] mn:text-[30px] mn:leading-[100%] mn:mb-[5px] 2sm:text-[35px] 3sm:text-[40px] md:text-[50px]"
+                   : "mn:text-[#41CA90] uppercase font-[700] mn:text-[30px] mn:leading-[100%] mn:mb-[5px] 2sm:text-[35px] 3sm:text-[40px] md:text-[50px]"
+               }
              >
                Tired?
              </h2>
@@ -285,7 +292,7 @@ export const Hero = () => {
              </p>
              <div
                className="flex mn:gap-[10px] absolute w-[100%] bottom-[5px] flex justify-center
-             2md:bottom-[60px] l:right-[70px]"
+             2md:bottom-[60px] l:bottom-[30px] l:right-[70px]"
              >
                <Link
                  to={"/"}
