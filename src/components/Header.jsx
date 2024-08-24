@@ -6,7 +6,7 @@ export const Header = () => {
     <header className="mn:pt-[20px] mn:pb-[20px] mn:absolute mn:w-[100%]">
       <div className="max-w-[1350px] mt-0 mb-0 ml-[auto] mr-[auto] pl-[15px] pr-[15px]">
         <div className="flex gap-[52px] items-center mn:gap-[25px]">
-          <Link to="/">
+          <Link to="/" className="cursor-pointer relative z-[5]">
             <img src={logo} alt="" className="mn:w-[50px]" />
           </Link>
           <nav>
