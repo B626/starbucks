@@ -13,7 +13,7 @@ export const Header = () => {
             <ul className="flex gap-[34px] mn:gap-[17px]">
               <li>
                 <Link
-                  className="text-[15px] text-[#fff] mn:text-[13px] 2sm:text-[15px]"
+                  className="text-[15px] text-[#fff] mn:text-[13px] 2sm:text-[15px] relative z-[3] hover:underline"
                   to="/"
                 >
                   Home
@@ -21,7 +21,7 @@ export const Header = () => {
               </li>
               <li>
                 <Link
-                  className="text-[15px] text-[#fff] mn:text-[13px] 2sm:text-[15px]"
+                  className="text-[15px] text-[#fff] mn:text-[13px] 2sm:text-[15px] relative z-[3] hover:underline"
                   to="/"
                 >
                   About
@@ -29,7 +29,7 @@ export const Header = () => {
               </li>
               <li>
                 <Link
-                  className="text-[15px] text-[#fff] mn:text-[13px] 2sm:text-[15px]"
+                  className="text-[15px] text-[#fff] mn:text-[13px] 2sm:text-[15px] relative z-[3] hover:underline"
                   to="/"
                 >
                   Contact
@@ -37,7 +37,7 @@ export const Header = () => {
               </li>
               <li>
                 <Link
-                  className="text-[15px] text-[#fff] mn:text-[13px] 2sm:text-[15px]"
+                  className="text-[15px] text-[#fff] mn:text-[13px] 2sm:text-[15px] relative z-[3] hover:underline"
                   to="/"
                 >
                   Giftcards
