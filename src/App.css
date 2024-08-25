@@ -6,16 +6,21 @@
    -webkit-background-clip: text;
   -webkit-text-stroke: 4px transparent;
    @media(min-width: 992px){
-      writing-mode: tb-rl
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
    }
 }
 
 .hero__coffee-name_two{
-   -webkit-text-stroke: 2px #fff;
-   text-stroke: 2px #fff;
+   -webkit-text-stroke: 4px #fff;
+   text-stroke: 4px #fff;
+   paint-order: stroke fill;
    color: #283E32;
    @media(max-width: 992px){
       display: none;
    }
 }
 
+.coffee-img{
+   filter: drop-shadow(31px 40px 40px rgba(0, 0, 0, 0.333));
+}

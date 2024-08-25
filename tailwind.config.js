@@ -10,7 +10,8 @@ export default {
       "3sm": "600px",
       "md": "768px",
       "2md": "992px",
-      "l": "1200px"
+      "l": "1200px",
+      "xl": "1500px"
     }
   },
   plugins: [ 
