@@ -37,21 +37,21 @@ export const Hero = () => {
       coffeeNameText.current.innerHTML = "Pistachio latte";
       coffeeNameTextStroke.current.innerHTML = "Pistachio latte";
       orderBtnRef.current.classList =
-        "text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] bg-[#C57C76] duration-[300ms]";
+        "text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] bg-[#C57C76] duration-[300ms] relative z-[5]";
       coffeeSwitch(coffeeImg2Ref.current, coffeeImgRef.current);
     } else if(drinkName === "pistachio latte") {
       setDrink("berries latte")
       coffeeNameText.current.innerHTML = "Berries latte"
       coffeeNameTextStroke.current.innerHTML = "Berries latte";
       orderBtnRef.current.classList =
-        "text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] bg-[#866F92] duration-[300ms]";
+        "text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] bg-[#866F92] duration-[300ms] relative z-[5]";
       coffeeSwitch(coffeeImg3Ref.current, coffeeImg2Ref.current);
     } else if(drinkName === "berries latte") {
       setDrink("cappucino")
       coffeeNameText.current.innerHTML = "Cappucino";
       coffeeNameTextStroke.current.innerHTML = "Cappucino";
       orderBtnRef.current.classList =
-        "text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] bg-[#23AC72] duration-[300ms]";
+        "text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] bg-[#23AC72] duration-[300ms] relative z-[5]";
       coffeeSwitch(coffeeImgRef.current, coffeeImg3Ref.current);
     }
   }
@@ -62,7 +62,7 @@ export const Hero = () => {
       coffeeNameText.current.innerHTML = "berries latte";
       coffeeNameTextStroke.current.innerHTML = "berries latte";
       orderBtnRef.current.classList =
-        "bg-[#866F92] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] duration-[300ms]";
+        "bg-[#866F92] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]";
       coffeeSwitch(coffeeImg3Ref.current, coffeeImgRef.current);
     } else if (drinkName === "berries latte") {
       setDrink("pistachio latte");
@@ -70,13 +70,13 @@ export const Hero = () => {
       coffeeNameTextStroke.current.innerHTML = "pistachio latte";
       coffeeSwitch(coffeeImg2Ref.current, coffeeImg3Ref.current);
       orderBtnRef.current.classList =
-        "bg-[#C57C76] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] duration-[300ms]";
+        "bg-[#C57C76] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]";
     } else if (drinkName === "pistachio latte") {
       setDrink("cappucino");
       coffeeNameText.current.innerHTML = "Cappucino";
       coffeeNameTextStroke.current.innerHTML = "Cappucino";
       orderBtnRef.current.classList =
-        "bg-[#23AC72] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] duration-[300ms]";
+        "bg-[#23AC72] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]";
       coffeeSwitch(coffeeImgRef.current, coffeeImg2Ref.current);
     }
   };
@@ -88,14 +88,14 @@ export const Hero = () => {
         coffeeNameText.current.innerHTML = "Cappucino";
         coffeeNameTextStroke.current.innerHTML = "Cappucino";
         orderBtnRef.current.classList =
-          "bg-[#23AC72] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] duration-[300ms]";
+          "bg-[#23AC72] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]";
         coffeeSwitch(coffeeImgRef.current, coffeeImg2Ref.current);
       } else if (drink === "berries latte"){
         setDrink("cappucino")
         coffeeNameText.current.innerHTML = "Cappucino";
         coffeeNameTextStroke.current.innerHTML = "Cappucino";
         orderBtnRef.current.classList =
-          "bg-[#23AC72] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] duration-[300ms]";
+          "bg-[#23AC72] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]";
         coffeeSwitch(coffeeImgRef.current, coffeeImg3Ref.current);
       }
     } else if (drinkName === "berries latte") {
@@ -104,14 +104,14 @@ export const Hero = () => {
         coffeeNameText.current.innerHTML = "berries latte";
         coffeeNameTextStroke.current.innerHTML = "berries latte";
         orderBtnRef.current.classList =
-          "bg-[#866F92] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] duration-[300ms]";
+          "bg-[#866F92] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]";
         coffeeSwitch(coffeeImg3Ref.current, coffeeImg2Ref.current);
       } else if (drink === "cappucino") {
         setDrink("berries latte");
         coffeeNameText.current.innerHTML = "berries latte";
         coffeeNameTextStroke.current.innerHTML = "berries latte";
         orderBtnRef.current.classList =
-          "bg-[#866F92] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] duration-[300ms]";
+          "bg-[#866F92] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]";
         coffeeSwitch(coffeeImg3Ref.current, coffeeImgRef.current);
       }
     } else if (drinkName === "pistachio latte") {
@@ -120,14 +120,14 @@ export const Hero = () => {
         coffeeNameText.current.innerHTML = "pistachio latte";
         coffeeNameTextStroke.current.innerHTML = "pistachio latte";
         orderBtnRef.current.classList =
-          "bg-[#C57C76] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] duration-[300ms]";
+          "bg-[#C57C76] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]";
         coffeeSwitch(coffeeImg2Ref.current, coffeeImg3Ref.current);
       } else if (drink === "cappucino") {
         setDrink("pistachio latte");
         coffeeNameText.current.innerHTML = "pistachio latte";
         coffeeNameTextStroke.current.innerHTML = "pistachio latte";
         orderBtnRef.current.classList =
-          "bg-[#C57C76] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] l:mb-[100px] duration-[300ms]";
+          "bg-[#C57C76] text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px] 3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]";
         coffeeSwitch(coffeeImg2Ref.current, coffeeImgRef.current);
       }
     }
@@ -149,7 +149,7 @@ export const Hero = () => {
     gsap.from(coffeePrevs.current, { x: -1000, duration: 1, delay: 0.3 });
   })
    return (
-     <section className="relative h-[100vh] mn:pt-[100px] md:pt-[150px] l:pt-[150px] xl:pt-[246px]">
+     <section className="relative h-[100vh] mn:pt-[100px] md:pt-[150px] l:pt-[130px] xl:pt-[246px]">
        <div className="max-w-[1350px] mt-0 mb-0 ml-[auto] mr-[auto] pl-[15px] pr-[15px] 2md:flex justify-between">
          <div className="l:w-[100%]">
            <div ref={mainText}>
@@ -181,7 +181,7 @@ export const Hero = () => {
              <Link
                className="text-[#fff] bg-[#23AC72] mn:pt-[12px] mn:pb-[12px] mn:pl-[50px] mn:pr-[50px] 
              inline-block mn:text-[20px] uppercase font-[700] mn:rounded-[170px] mn:mb-[20px]
-             3sm:text-[24px] xl:mb-[100px] duration-[300ms]"
+             3sm:text-[24px] xl:mb-[100px] duration-[300ms] relative z-[5]"
                ref={orderBtnRef}
              >
                Order now

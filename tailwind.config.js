@@ -11,7 +11,7 @@ export default {
       "md": "768px",
       "2md": "992px",
       "l": "1200px",
-      "xl": "1500px"
+      "xl": "1600px"
     }
   },
   plugins: [ 
